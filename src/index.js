@@ -1,11 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
-import './css/index.css';
 import Home from './pages/Home';
 import Layout from './layout';
-import About from './pages/About';
 import NoPage from './pages/NoPage';
+import Amenities from './pages/Amenities';
+import Contact from './pages/Contact';
+import Memberships from './pages/Memberships';
+import Trainers from './pages/Trainers';
+import EasterEgg from './pages/EasterEgg';
+import './css/index.css';
 
 const App = () => {
   return(
@@ -13,7 +17,11 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
-        <Route path="about" element={<About />} />
+        <Route path="amenities" element={<Amenities />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="memberships" element={<Memberships />} />
+        <Route path="trainers" element={<Trainers />} />
+        <Route path="easter-egg" element={<EasterEgg />} />
         <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

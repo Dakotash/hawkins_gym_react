@@ -1,4 +1,33 @@
-#main-header {
-    background-color: darkred;
-    color: white;
+header{
+    padding: 2px 0;
+    background-color: var(--secondary-color);
+    box-shadow: var(--shadow);
+    position: relative;
+    z-index: 100;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.header .logo img{
+    width: 130px;
+    height: 130px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.header .logo img:hover {
+    transform: scale(1.05);
+}
+
+
+@media screen and (max-width: 767px) {    
+    .header {
+        position: relative;
+    }
+    
 }
