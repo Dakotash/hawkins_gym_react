@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hawkins_gym_react/static/css/main.50e019ff.css",
+    "main.js": "/hawkins_gym_react/static/js/main.ac79b0d2.js",
+    "index.html": "/hawkins_gym_react/index.html",
+    "main.50e019ff.css.map": "/hawkins_gym_react/static/css/main.50e019ff.css.map",
+    "main.ac79b0d2.js.map": "/hawkins_gym_react/static/js/main.ac79b0d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50e019ff.css",
+    "static/js/main.ac79b0d2.js"
+  ]
+}
