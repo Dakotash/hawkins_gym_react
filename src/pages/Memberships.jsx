@@ -1,7 +1,9 @@
+import MembershipPlans from "../components/MembershipPlans";
+
 const Memberships = () => {
     return (
         <>
-            <h1>Membership</h1>
+            <MembershipPlans />
         </>
     );
 };

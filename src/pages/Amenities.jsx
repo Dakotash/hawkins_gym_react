@@ -1,7 +1,11 @@
+import AmenitiesGallery from "../components/AmenitiesGallery";
+import AvailableAmenities from "../components/AvailableAmenities";
+
 const Amenities = () => {
     return (
         <>
-            <h1>Amenities</h1>
+            <AmenitiesGallery/>
+            <AvailableAmenities />
         </>
     );
 };

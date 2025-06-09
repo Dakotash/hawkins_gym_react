@@ -1,0 +1,36 @@
+#trainers{
+    padding: 60px 0;
+    background-color: var(--white);
+}
+
+#trainers-content {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.trainers-item h3{
+    text-align: left;
+}
+
+#trainers-content img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid var(--primary-color);
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+
+#trainers-content img:hover {
+    transform: scale(1.05);
+    border-color: var(--alt-gold-color);
+}
+
+
+@media screen and (min-width: 599px) { 
+    #trainers-content {
+        gap: 20px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

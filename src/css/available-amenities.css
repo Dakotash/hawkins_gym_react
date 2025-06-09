@@ -1,0 +1,159 @@
+#amenities{
+    padding: 60px 0;
+    background-color: var(--white);
+}
+
+#amenities h2{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#amenities ul{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#amenities ul li{
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--light-gray);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    border-left: 4px solid var(--primary-color);
+}
+
+
+
+#amenities ul li svg{
+    width: 23px;
+    height: 23px;
+    color: var(--primary-color);
+    flex-shrink: 0;
+}
+
+#amenities ul li strong {
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+
+/* Amenities List Item Interactive Styles */
+.amenity-list-item-clickable {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.amenity-list-item-clickable:hover {
+    background-color: #e8f4f8;
+    transform: translateX(10px);
+}
+
+/* Amenity Details Modal Styles */
+.amenity-details-container {
+    padding: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.amenity-details-title {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.amenity-details-description {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    color: #555;
+}
+
+.amenity-features-heading {
+    color: var(--secondary-color);
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.amenity-features-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.amenity-feature-item {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+}
+
+.amenity-feature-item:last-child {
+    border-bottom: none;
+}
+
+.amenity-feature-icon {
+    width: 20px;
+    height: 20px;
+    color: var(--primary-color);
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+.amenity-feature-text {
+    font-weight: 500;
+    color: var(--text-dark);
+}
+
+.amenity-details-actions {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.amenity-close-btn {
+    background: linear-gradient(135deg, var(--primary-color), var(--alt-gold-color));
+    color: var(--white);
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    font-family: inherit;
+}
+
+.amenity-close-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-hover);
+    background: linear-gradient(135deg, var(--alt-gold-color), var(--primary-color));
+}
+
+
+
+@media screen and (max-width: 599px) { 
+    #amenities ul {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+}
+
+@media screen and (min-width: 768px) {  
+    #amenities h2{
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    #amenities ul{
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+    }
+}

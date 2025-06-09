@@ -8,12 +8,12 @@ import Amenities from './pages/Amenities';
 import Contact from './pages/Contact';
 import Memberships from './pages/Memberships';
 import Trainers from './pages/Trainers';
-import EasterEgg from './pages/EasterEgg';
 import './css/index.css';
 
 const App = () => {
   return(
     <BrowserRouter basename={process.env.PUBLIC_URL}>
+  
       <Routes>
         <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
@@ -21,7 +21,6 @@ const App = () => {
         <Route path="contact" element={<Contact />} />
         <Route path="memberships" element={<Memberships />} />
         <Route path="trainers" element={<Trainers />} />
-        <Route path="easter-egg" element={<EasterEgg />} />
         <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

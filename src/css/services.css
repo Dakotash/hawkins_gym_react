@@ -1,0 +1,44 @@
+#services{
+    padding: 60px 0;
+    background-color: var(--white);
+}
+
+#services h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 28px;
+}
+
+.services-gallery{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media screen and (max-width: 599px) {
+    .services-gallery {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .services-gallery{
+        gap: 30px;
+    }
+
+}
+
+/* Large screens - Desktop */
+@media screen and (min-width: 768px) {
+    .services-gallery{
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 30px;
+    }
+}

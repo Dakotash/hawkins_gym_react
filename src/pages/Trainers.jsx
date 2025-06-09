@@ -1,7 +1,9 @@
+import TrainersList from "../components/TrainersList";
+
 const Trainers = () => {
     return (
         <>
-            <h1>Trainers</h1>
+            <TrainersList />
         </>
     );
 };
