@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/hawkins_gym_react/static/css/main.acf7f87e.css",
-    "main.js": "/hawkins_gym_react/static/js/main.a8d1f847.js",
+    "main.css": "/hawkins_gym_react/static/css/main.3328beaa.css",
+    "main.js": "/hawkins_gym_react/static/js/main.b296d393.js",
     "static/media/gym-logo.png": "/hawkins_gym_react/static/media/gym-logo.133409c90eb1a45aaf52.png",
     "static/media/arnold-training.png": "/hawkins_gym_react/static/media/arnold-training.9d8a85a8dfe21861f95c.png",
     "static/media/arnold-group.jpg": "/hawkins_gym_react/static/media/arnold-group.5e461b5c17bb1bcf6e9e.jpg",
     "static/media/24-7-hawkins.jpg": "/hawkins_gym_react/static/media/24-7-hawkins.dd0210550838321b58ef.jpg",
     "static/media/70s-mach.jpg": "/hawkins_gym_react/static/media/70s-mach.032126772b24667b6297.jpg",
     "index.html": "/hawkins_gym_react/index.html",
-    "main.acf7f87e.css.map": "/hawkins_gym_react/static/css/main.acf7f87e.css.map",
-    "main.a8d1f847.js.map": "/hawkins_gym_react/static/js/main.a8d1f847.js.map"
+    "main.3328beaa.css.map": "/hawkins_gym_react/static/css/main.3328beaa.css.map",
+    "main.b296d393.js.map": "/hawkins_gym_react/static/js/main.b296d393.js.map"
   },
   "entrypoints": [
-    "static/css/main.acf7f87e.css",
-    "static/js/main.a8d1f847.js"
+    "static/css/main.3328beaa.css",
+    "static/js/main.b296d393.js"
   ]
 }
