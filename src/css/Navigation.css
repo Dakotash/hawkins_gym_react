@@ -27,8 +27,11 @@ nav ul a{
     display: none;
     flex-direction: column;
     cursor: pointer;
-    padding: 5px;
     z-index: 1001;
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    color: var(--primary-color);
 }
 
 .hamburger {
@@ -87,7 +90,7 @@ nav ul a{
     }
     
     nav ul.nav-open {
-        transform: translateY(0);
+
         opacity: 1;
         visibility: visible;
     }
