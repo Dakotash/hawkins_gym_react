@@ -11,7 +11,7 @@ const AmenitiesGallery = () => {
             </div>
         </section>
     );
-};
+}; 
 
 export default AmenitiesGallery;
 
